@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "toggletabclientsidemod",
+  "name": "Toggle Tab by namesarewords on discord",
+  "version": "1.21.1",
+  "icon": "assets/toggletabicon.png",
+  "entrypoints": {
+    "client": [
+      "names.mods.toggletabclientsidemod.client.ToggleTabClientSideModClient"
+    ],
+    "main": [
+      "names.mods.toggletabclientsidemod.Toggletabclientsidemod"
+    ]
+  },
+  "mixins": [
+    "toggletabclientsidemod.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.21.1"
+  }
+}
